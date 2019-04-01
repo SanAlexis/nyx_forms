@@ -1,6 +1,8 @@
-#DATA ARCHITECTURE OF NYX FORMS
+# DATA ARCHITECTURE OF NYX FORMS
+
 inquiry	|id
-	|
+		|name 
+		|
 statistic
 cluster
 form
