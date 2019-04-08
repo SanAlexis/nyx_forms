@@ -13,3 +13,4 @@ pluginManagement {
 	}
 }
 rootProject.name = 'nyx_forms'
+include 'forms', 'front-end'

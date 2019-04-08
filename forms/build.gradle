@@ -22,5 +22,18 @@ dependencies {
 	implementation 'org.springframework.session:spring-session-core'
 	runtimeOnly 'org.springframework.boot:spring-boot-devtools'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	compile("org.springframework.boot:spring-boot-starter-tomcat")
 	testImplementation 'io.projectreactor:reactor-test'
+}
+
+bootJar {
+    mainClassName = 'NyxFormsApplication.App'
+}
+
+jar {
+	baseName = 'spring-angular'
+	version = '0.0.1-SNAPSHOT'
+	from('front-end/dist') {
+		into 'public'
+	}
 }
