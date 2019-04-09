@@ -1,9 +1,9 @@
 'use strict';
 /**
  * @ngdoc overview
- * @name sbAdminApp
+ * @name nyx_forms
  * @description
- * # sbAdminApp
+ * # nyx_forms
  *
  * Main module of the application.
  */
