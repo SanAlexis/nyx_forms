@@ -11,6 +11,7 @@ import { AnalyticsService } from './@core/utils/analytics.service';
   template: '<router-outlet></router-outlet>',
 })
 export class AppComponent implements OnInit {
+
   constructor(private analytics: AnalyticsService) {
   }
 
