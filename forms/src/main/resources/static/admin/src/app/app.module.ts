@@ -14,9 +14,10 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ThemeModule } from './@theme/theme.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { InquiryListComponent } from './inquiry-list/inquiry-list.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, InquiryListComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
