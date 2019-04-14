@@ -2,7 +2,10 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @NgModule({
-  declarations: [],
+  declarations: [
+	user-global,
+	user-detail
+	],
   imports: [
     CommonModule
   ]
