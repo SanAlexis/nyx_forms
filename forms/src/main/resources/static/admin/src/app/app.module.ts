@@ -46,7 +46,7 @@ import { ReportNwFieldComponent } from './components/report-nw-field/report-nw-f
 
 
 @NgModule({
-  declarations: [AppComponent, InquiryListComponent, InquiryInvitationsListComponent, InquiryCompactComponent, InquiryDetailComponent, UserGlobalComponent, UserDetailComponent, ClusterTreeComponent, ClusterDetailComponent, ClusterIdSettingComponent, ClusterButtonsComponent, StatisticListComponent, StatisticDetailComponent, FormFieldNewComponent, FormFieldListComponent, FormNameFieldComponent, ReportGlobalComponent, ReportDetailComponent, ReportNewFieldComponent, ReportStatisticListComponent, FormFieldNwComponent, ReportNwFieldComponent],
+  declarations: [AppComponent, InquiryListComponent, InquiryInvitationsListComponent, InquiryCompactComponent, InquiryDetailComponent, UserGlobalComponent, UserDetailComponent, ClusterTreeComponent, ClusterDetailComponent, ClusterIdSettingComponent, ClusterButtonsComponent, StatisticListComponent, StatisticDetailComponent, FormFieldListComponent, FormNameFieldComponent, ReportGlobalComponent, ReportDetailComponent, ReportStatisticListComponent, FormFieldNwComponent, ReportNwFieldComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
