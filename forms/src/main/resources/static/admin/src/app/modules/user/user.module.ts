@@ -5,8 +5,8 @@ import { UserDetailComponent } from 'app/components/user-detail/user-detail.comp
 
 @NgModule({
   declarations: [
-	user-global,
-	user-detail
+	UserGlobalComponent,
+	UserDetailComponent
 	],
   imports: [
     CommonModule
