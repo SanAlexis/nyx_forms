@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
-	form-field-new,
+	form-field-nw,
 	form-field-list,
 	form-name-field
 	],

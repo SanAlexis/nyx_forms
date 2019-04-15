@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
   declarations: [
 	report-global,
 	report-detail,
-	report-new-field,
+	report-nw-field,
 	report-statistic-list
 	],
   imports: [
