@@ -21,7 +21,7 @@ import { InquiryModule } from './modules/inquiry/inquiry.module';
 import { StatisticModule } from './modules/statistic/statistic.module';
 import { FormModule } from './modules/form/form.module';
 import { UserModule } from './modules/user/user.module';
-
+/*
 import { InquiryListComponent } from './components/inquiry-list/inquiry-list.component';
 import { InquiryInvitationsListComponent } from './components/inquiry-invitations-list/inquiry-invitations-list.component';
 import { InquiryCompactComponent } from './components/inquiry-compact/inquiry-compact.component';
@@ -43,10 +43,12 @@ import { ReportDetailComponent } from './components/report-detail/report-detail.
 import { ReportStatisticListComponent } from './components/report-statistic-list/report-statistic-list.component';
 import { FormFieldNwComponent } from './components/form-field-nw/form-field-nw.component';
 import { ReportNwFieldComponent } from './components/report-nw-field/report-nw-field.component';
-
+*/
 
 @NgModule({
-  declarations: [AppComponent, InquiryListComponent, InquiryInvitationsListComponent, InquiryCompactComponent, InquiryDetailComponent, UserGlobalComponent, UserDetailComponent, ClusterTreeComponent, ClusterDetailComponent, ClusterIdSettingComponent, ClusterButtonsComponent, StatisticListComponent, StatisticDetailComponent, FormFieldListComponent, FormNameFieldComponent, ReportGlobalComponent, ReportDetailComponent, ReportStatisticListComponent, FormFieldNwComponent, ReportNwFieldComponent],
+  declarations: [AppComponent, 
+				 /*InquiryListComponent, InquiryInvitationsListComponent, InquiryCompactComponent, InquiryDetailComponent, UserGlobalComponent, UserDetailComponent, ClusterTreeComponent, ClusterDetailComponent, ClusterIdSettingComponent, ClusterButtonsComponent, StatisticListComponent, StatisticDetailComponent, FormFieldListComponent, FormNameFieldComponent, ReportGlobalComponent, ReportDetailComponent, ReportStatisticListComponent, FormFieldNwComponent, ReportNwFieldComponent*/
+				],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -56,7 +58,13 @@ import { ReportNwFieldComponent } from './components/report-nw-field/report-nw-f
     NgbModule.forRoot(),
     ThemeModule.forRoot(),
     CoreModule.forRoot(),
-	ReportModule
+	
+	ReportModule,
+	ClusterModule,
+	InquiryModule,
+	StatisticModule,
+	FormModule,
+	UserModule
   ],
   bootstrap: [AppComponent],
   providers: [

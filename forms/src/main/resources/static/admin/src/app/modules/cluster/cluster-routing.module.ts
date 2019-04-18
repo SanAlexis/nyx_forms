@@ -9,8 +9,14 @@ import {
   NbResetPasswordComponent,
 } from '@nebular/auth';
 
-const routes: Routes = [
-  //{ path: 'pages', component: NbAuthComponent,},
+import { CommonModule } from '@angular/common';
+
+import { ClusterTreeComponent } from 'app/components/cluster-tree/cluster-tree.component';
+import { ClusterDetailComponent } from 'app/components/cluster-detail/cluster-detail.component';
+import { ClusterIdSettingComponent } from 'app/components/cluster-id-setting/cluster-id-setting.component';
+import { ClusterButtonsComponent } from 'app/components/cluster-buttons/cluster-buttons.component';
+
+const clusterRoutes: Routes = [
   { path: 'pages', loadChildren: 'app/pages/pages.module#PagesModule' },
   {
     path: 'auth',
@@ -46,14 +52,10 @@ const routes: Routes = [
   { path: '**', redirectTo: 'pages' },
 ];
 
-const config: ExtraOptions = {
-  useHash: true,
-};
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, config)],
-  //imports: [RouterModule.forRoot(routes, { enableTracing: true }) ],
+  imports: [RouterModule.forChild(clusterRoutes)],
   exports: [RouterModule],
 })
-export class AppRoutingModule {
-}
+
+export class ClusterRoutingModule { }

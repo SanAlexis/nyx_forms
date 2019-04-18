@@ -5,6 +5,8 @@ import { ClusterDetailComponent } from 'app/components/cluster-detail/cluster-de
 import { ClusterIdSettingComponent } from 'app/components/cluster-id-setting/cluster-id-setting.component';
 import { ClusterButtonsComponent } from 'app/components/cluster-buttons/cluster-buttons.component';
 
+import {ClusterRoutingModule } from './cluster-routing.module';
+
 @NgModule({
   declarations: [
 	ClusterTreeComponent,
@@ -13,7 +15,8 @@ import { ClusterButtonsComponent } from 'app/components/cluster-buttons/cluster-
 	ClusterButtonsComponent
 	],
   imports: [
-    CommonModule
+    CommonModule,
+	ClusterRoutingModule
   ]
 })
 export class ClusterModule { }
