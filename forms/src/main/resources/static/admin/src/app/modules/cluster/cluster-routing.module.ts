@@ -17,6 +17,7 @@ import { ClusterIdSettingComponent } from 'app/components/cluster-id-setting/clu
 import { ClusterButtonsComponent } from 'app/components/cluster-buttons/cluster-buttons.component';
 
 const clusterRoutes: Routes = [
+	//This must be changed.
   { path: 'pages', loadChildren: 'app/pages/pages.module#PagesModule' },
   {
     path: 'auth',
@@ -51,7 +52,7 @@ const clusterRoutes: Routes = [
   { path: '', redirectTo: 'pages', pathMatch: 'full' },
   { path: '**', redirectTo: 'pages' },
 ];
-
+// Until this line !!
 
 @NgModule({
   imports: [RouterModule.forChild(clusterRoutes)],
