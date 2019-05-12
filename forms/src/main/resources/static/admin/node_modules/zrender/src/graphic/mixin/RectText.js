@@ -5,6 +5,7 @@
 
 import * as textHelper from '../helper/text';
 import BoundingRect from '../../core/BoundingRect';
+import {WILL_BE_RESTORED} from '../constant';
 
 var tmpRect = new BoundingRect();
 
@@ -37,6 +38,9 @@ RectText.prototype = {
         }
 
         // FIXME
+        // Do not provide prevEl to `textHelper.renderText` for ctx prop cache,
+        // but use `ctx.save()` and `ctx.restore()`. Because the cache for rect
+        // text propably break the cache for its host elements.
         ctx.save();
 
         // Transform rect to view space
@@ -53,7 +57,7 @@ RectText.prototype = {
         }
 
         // transformText and textRotation can not be used at the same time.
-        textHelper.renderText(this, ctx, text, style, rect);
+        textHelper.renderText(this, ctx, text, style, rect, WILL_BE_RESTORED);
 
         ctx.restore();
     }

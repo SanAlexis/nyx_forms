@@ -1,48 +1,53 @@
-import { OnChanges, SimpleChanges } from '@angular/core';
+import { ChangeDetectorRef, OnChanges, SimpleChanges } from '@angular/core';
 import { ControlValueAccessor } from '@angular/forms';
 import { NgbTime } from './ngb-time';
 import { NgbTimepickerConfig } from './timepicker-config';
 import { NgbTimeAdapter } from './ngb-time-adapter';
 /**
- * A lightweight & configurable timepicker directive.
+ * A directive that helps with wth picking hours, minutes and seconds.
  */
 export declare class NgbTimepicker implements ControlValueAccessor, OnChanges {
+    private readonly _config;
     private _ngbTimeAdapter;
+    private _cd;
     disabled: boolean;
     model: NgbTime;
+    private _hourStep;
+    private _minuteStep;
+    private _secondStep;
     /**
      * Whether to display 12H or 24H mode.
      */
     meridian: boolean;
     /**
-     * Whether to display the spinners above and below the inputs.
+     * If `true`, the spinners above and below inputs are visible.
      */
     spinners: boolean;
     /**
-     * Whether to display seconds input.
+     * If `true`, it is possible to select seconds.
      */
     seconds: boolean;
     /**
-     * Number of hours to increase or decrease when using a button.
+     * The number of hours to add/subtract when clicking hour spinners.
      */
     hourStep: number;
     /**
-     * Number of minutes to increase or decrease when using a button.
+     * The number of minutes to add/subtract when clicking minute spinners.
      */
     minuteStep: number;
     /**
-     * Number of seconds to increase or decrease when using a button.
+     * The number of seconds to add/subtract when clicking second spinners.
      */
     secondStep: number;
     /**
-     * To make timepicker readonly
+     * If `true`, the timepicker is readonly and can't be changed.
      */
     readonlyInputs: boolean;
     /**
-     * To set the size of the inputs and button
+     * The size of inputs and buttons.
      */
     size: 'small' | 'medium' | 'large';
-    constructor(config: NgbTimepickerConfig, _ngbTimeAdapter: NgbTimeAdapter<any>);
+    constructor(_config: NgbTimepickerConfig, _ngbTimeAdapter: NgbTimeAdapter<any>, _cd: ChangeDetectorRef);
     onChange: (_: any) => void;
     onTouched: () => void;
     writeValue(value: any): void;

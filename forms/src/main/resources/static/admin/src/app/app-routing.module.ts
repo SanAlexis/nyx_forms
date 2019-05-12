@@ -52,7 +52,6 @@ const config: ExtraOptions = {
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, config)],
-  //imports: [RouterModule.forRoot(routes, { enableTracing: true }) ],
   exports: [RouterModule],
 })
 export class AppRoutingModule {
