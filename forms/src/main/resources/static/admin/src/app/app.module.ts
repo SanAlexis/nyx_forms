@@ -21,10 +21,11 @@ import { InquiryModule } from './modules/inquiry/inquiry.module';
 import { StatisticModule } from './modules/statistic/statistic.module';
 import { FormModule } from './modules/form/form.module';
 import { UserModule } from './modules/user/user.module';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 
 @NgModule({
-  declarations: [AppComponent
+  declarations: [AppComponent, DashboardComponent
 				],
   imports: [
     BrowserModule,
