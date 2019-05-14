@@ -1,5 +1,6 @@
 import { ExtraOptions, RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
+import { MythemeModule } from './mytheme/mytheme.module';
 import {
   NbAuthComponent,
   NbLoginComponent,
@@ -9,7 +10,7 @@ import {
   NbResetPasswordComponent,
 } from '@nebular/auth';
 import {
-	DashboardComponent,
+    DashboardComponent,
 } from './components/dashboard/dashboard.component';
 
 const routes: Routes = [

@@ -1,0 +1,19 @@
+<nb-layout windowMode>
+      <nb-layout-header fixed>
+        <ngx-header></ngx-header>
+      </nb-layout-header>        
+        <ng-content select="nb-menu"></ng-content>      
+
+      <nb-layout-column class="main-content">
+        <ng-content select="router-outlet"></ng-content>
+      </nb-layout-column>
+      <nb-layout-footer fixed>
+        <ngx-footer></ngx-footer>
+      </nb-layout-footer>
+
+      <nb-sidebar class="settings-sidebar"
+                   tag="settings-sidebar"
+                   state="collapsed"
+                   fixed>        
+      </nb-sidebar>
+</nb-layout>

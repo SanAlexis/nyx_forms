@@ -21,12 +21,12 @@ import { InquiryModule } from './modules/inquiry/inquiry.module';
 import { StatisticModule } from './modules/statistic/statistic.module';
 import { FormModule } from './modules/form/form.module';
 import { UserModule } from './modules/user/user.module';
-import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { HomeModule } from './modules/home/home.module';
+import { MythemeModule } from './mytheme/mytheme.module';
 
 
 @NgModule({
-  declarations: [AppComponent, DashboardComponent
-				],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -42,7 +42,9 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 	InquiryModule,
 	StatisticModule,
 	FormModule,
-	UserModule
+	UserModule,
+        HomeModule,
+        MythemeModule
   ],
   bootstrap: [AppComponent],
   providers: [
