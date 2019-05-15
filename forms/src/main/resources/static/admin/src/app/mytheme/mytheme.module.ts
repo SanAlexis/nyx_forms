@@ -82,8 +82,9 @@ NbActionsModule,
 
 @NgModule({
   declarations: [LayoutComponent, FooterComponent, HeaderComponent],
-  imports: [...NB_MODULES,
+  imports: [...NB_MODULES, 
+            NbThemeModule.forRoot({ name: 'default' }),
   ],
-  exports: [LayoutComponent]
+  exports: [LayoutComponent, FooterComponent, HeaderComponent]
 })
 export class MythemeModule { }

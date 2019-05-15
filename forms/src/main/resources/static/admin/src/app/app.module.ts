@@ -1,6 +1,6 @@
 /**
  * @license
- * Copyright Akveo. All Rights Reserved.
+ * Copyright Nyx-Embedded Intelligence. All Rights Reserved.
  * Licensed under the MIT License. See License.txt in the project root for license information.
  */
 import { APP_BASE_HREF } from '@angular/common';
