@@ -2,13 +2,14 @@
      [class.left]="position === 'normal'"
      [class.right]="position === 'inverse'">
   <div class="logo-container">
-    <a (click)="toggleSidebar()" href="#" class="navigation"><i class="nb-menu"></i></a>    
+    <a (click)="toggleSidebar()" href="#" class="navigation"><i class="nb-menu"></i></a>
+    <span></span>
+    <img class="logo" (click)="goToHome()" src="../../../../assets/images/logo-completpng.png" alt="Nyx Formx" width="25%">
     <!--<div class="logo" (click)="goToHome()">Nyx-<span>Formx</span></div>-->
-  </div>
-    <div class="logo" (click)="goToHome()"><img src="../../../../assets/images/logo-completpng.png" alt="Nyx Formx" width="25%"></div>
-  
+  </div>  
 </div>
 
+  
 <div class="header-container">
   <nb-actions
     size="medium"
