@@ -10,6 +10,7 @@ import {
 } from '@nebular/theme';
 import { FooterComponent } from '../footer/footer.component';
 import { HeaderComponent } from '../header/header.component';
+import { MENU_ITEMS } from '../../home-menu';
 
 @Component({
   selector: 'ngx-layout',
@@ -22,5 +23,5 @@ export class LayoutComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  menus = MENU_ITEMS;
 }
