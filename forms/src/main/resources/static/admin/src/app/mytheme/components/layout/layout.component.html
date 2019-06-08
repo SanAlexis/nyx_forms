@@ -7,7 +7,7 @@
                    responsive>
         <nb-sidebar-header>          
         </nb-sidebar-header>
-        <ng-content select="nb-menu"></ng-content>
+        <nb-menu [items]="menus"></nb-menu>
       </nb-sidebar>
       <nb-layout-column class="main-content">
         <ng-content select="router-outlet"></ng-content>
