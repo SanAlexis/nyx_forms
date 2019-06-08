@@ -3,10 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/@theme/components/header/header.component.ts</file>
-            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/@theme/components/header/header.component.html</file>
-            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/environments/environment.ts</file>
+            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/mytheme/components/layout/layout.component.ts</file>
+            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/@theme/components/toggle-settings-button/toggle-settings-button.component.ts</file>
+            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/pages/pages.component.ts</file>
+            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/@theme/layouts/index.ts</file>
+            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/@theme/layouts/sample/sample.layout.ts</file>
             <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/pages/pages-menu.ts</file>
+            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/mytheme/components/layout/layout.component.html</file>
         </group>
     </open-files>
 </project-private>
