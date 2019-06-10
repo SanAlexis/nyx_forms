@@ -1,0 +1,16 @@
+Enquête	| Mes enquêtes
+		| Nouvelle enquête
+		| Joindre une enquête
+		| Quitter l'enquête
+		| Utilisateurs
+						| Nouveau
+						| Modifier
+		| Rapports
+		| Clusters
+					| Nouveau
+					| Anonyme
+		| Formulaires
+					| Nouveau
+					| Modifier
+Réglages| Compte
+		| Paramètres généraux
