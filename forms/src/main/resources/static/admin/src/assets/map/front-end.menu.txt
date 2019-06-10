@@ -14,3 +14,4 @@ Enquête	| Mes enquêtes
 					| Modifier
 Réglages| Compte
 		| Paramètres généraux
+Licence	|		
