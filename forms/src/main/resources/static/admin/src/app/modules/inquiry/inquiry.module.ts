@@ -4,13 +4,15 @@ import { InquiryListComponent } from 'app/components/inquiry-list/inquiry-list.c
 import { InquiryInvitationsListComponent } from 'app/components/inquiry-invitations-list/inquiry-invitations-list.component';
 import { InquiryCompactComponent } from 'app/components/inquiry-compact/inquiry-compact.component';
 import { InquiryDetailComponent } from 'app/components/inquiry-detail/inquiry-detail.component';
+import { InquiryComponent } from 'app/components/inquiry/inquiry.component';
 
 @NgModule({
   declarations: [
 	InquiryListComponent,
 	InquiryInvitationsListComponent,
 	InquiryCompactComponent,
-	InquiryDetailComponent
+	InquiryDetailComponent,
+        InquiryComponent
 	],
   imports: [
     CommonModule

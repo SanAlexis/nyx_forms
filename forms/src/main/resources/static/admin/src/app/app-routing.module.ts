@@ -12,11 +12,16 @@ import {
 import {
     DashboardComponent,
 } from './components/dashboard/dashboard.component';
+import {
+    InquiryComponent,
+} from './components/inquiry/inquiry.component';
 
 const routes: Routes = [
   
   { path: 'home',
     component: DashboardComponent,},
+  { path: 'inquiry', 
+    component: InquiryComponent,},
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '**', redirectTo: 'pages' },
 ];
