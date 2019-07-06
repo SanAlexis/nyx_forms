@@ -5,6 +5,7 @@ import { InquiryInvitationsListComponent } from 'app/components/inquiry-invitati
 import { InquiryCompactComponent } from 'app/components/inquiry-compact/inquiry-compact.component';
 import { InquiryDetailComponent } from 'app/components/inquiry-detail/inquiry-detail.component';
 import { InquiryComponent } from 'app/components/inquiry/inquiry.component';
+import { LayoutComponent } from 'app/mytheme/components/layout/layout.component';
 
 @NgModule({
   declarations: [
