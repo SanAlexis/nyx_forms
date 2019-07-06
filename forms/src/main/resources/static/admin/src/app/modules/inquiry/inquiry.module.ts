@@ -6,16 +6,19 @@ import { InquiryCompactComponent } from 'app/components/inquiry-compact/inquiry-
 import { InquiryDetailComponent } from 'app/components/inquiry-detail/inquiry-detail.component';
 import { InquiryComponent } from 'app/components/inquiry/inquiry.component';
 
+import { MythemeModule } from 'app/mytheme/mytheme.module';
+
 @NgModule({
   declarations: [
 	InquiryListComponent,
 	InquiryInvitationsListComponent,
 	InquiryCompactComponent,
 	InquiryDetailComponent,
-        InquiryComponent
+        InquiryComponent,
 	],
   imports: [
-    CommonModule
+    CommonModule,
+    MythemeModule,
   ]
 })
 export class InquiryModule { }
