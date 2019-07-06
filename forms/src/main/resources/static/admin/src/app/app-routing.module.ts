@@ -23,7 +23,7 @@ const routes: Routes = [
   { path: 'inquiry', 
     component: InquiryComponent,},
   { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: '**', redirectTo: 'pages' },
+  { path: '**', redirectTo: 'home' },
 ];
 
 const config: ExtraOptions = {
