@@ -1,13 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { InquiryComponent } from 'app/components/inquiry/inquiry.component';
+import { InquiryOwnerListComponent } from 'app/components/inquiry-owner-list/inquiry-owner-list.component';
 
 const routes: Routes = [{
   path: '',
-  component: InquiryComponent,
+  component: InquiryOwnerListComponent,
   children: [{
     path: 'new',
-    component: InquiryComponent,
+    component: InquiryOwnerListComponent,
   }],
 }];
 

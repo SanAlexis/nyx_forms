@@ -1,6 +1,7 @@
 import { ExtraOptions, RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { MythemeModule } from './mytheme/mytheme.module';
+import { InquiryModule } from './modules/inquiry/inquiry.module';
 import {
   NbAuthComponent,
   NbLoginComponent,
@@ -21,7 +22,7 @@ const routes: Routes = [
   { path: 'home',
     component: DashboardComponent,},
   { path: 'inquiry', 
-    component: InquiryComponent,},
+    loadChildren: './modules/inquiry/inquiry.module#InquiryModule',},
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '**', redirectTo: 'home' },
 ];
