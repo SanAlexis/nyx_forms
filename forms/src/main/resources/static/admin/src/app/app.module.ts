@@ -23,10 +23,11 @@ import { FormModule } from './modules/form/form.module';
 import { UserModule } from './modules/user/user.module';
 import { HomeModule } from './modules/home/home.module';
 import { MythemeModule } from './mytheme/mytheme.module';
+import { InquiryOwnerListComponent } from './components/inquiry-owner-list/inquiry-owner-list.component';
 
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, InquiryOwnerListComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
