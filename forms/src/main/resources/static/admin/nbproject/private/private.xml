@@ -2,31 +2,12 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-<<<<<<< HEAD
         <group>
-            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/mytheme/components/layout/layout.component.scss</file>
-            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/mytheme/mytheme.module.ts</file>
-            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/mytheme/components/header/header.component.ts</file>
-            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/@theme/components/header/header.component.ts</file>
-            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/@theme/components/header/header.component.html</file>
-            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/mytheme/components/header/header.component.html</file>
-            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/mytheme/components/header/header.component.scss</file>
-            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/mytheme/components/layout/layout.component.html</file>
+            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/modules/inquiry/inquiry-routing.module.ts</file>
+            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/modules/inquiry/inquiry.module.ts</file>
+            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/components/inquiry/inquiry.component.ts</file>
+            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/components/inquiry/inquiry.component.html</file>
+            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/modules/home/home.module.ts</file>
         </group>
-=======
-<<<<<<< HEAD
-        <group>
-            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/mytheme/components/layout/layout.component.ts</file>
-            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/@theme/components/toggle-settings-button/toggle-settings-button.component.ts</file>
-            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/pages/pages.component.ts</file>
-            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/@theme/layouts/index.ts</file>
-            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/@theme/layouts/sample/sample.layout.ts</file>
-            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/pages/pages-menu.ts</file>
-            <file>file:/home/tadifo/Documents/Forms/nyx_forms/forms/src/main/resources/static/admin/src/app/mytheme/components/layout/layout.component.html</file>
-        </group>
-=======
-        <group/>
->>>>>>> ee11b4c432fcd0b9ffbff1acf7767aaa06b60920
->>>>>>> front-end.homepage.menu
     </open-files>
 </project-private>
