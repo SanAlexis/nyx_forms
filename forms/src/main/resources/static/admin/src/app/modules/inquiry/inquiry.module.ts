@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core'; 
 import { CommonModule } from '@angular/common';
+import { ThemeModule } from '../../@theme/theme.module';
 import { InquiryListComponent } from 'app/components/inquiry-list/inquiry-list.component';
 import { InquiryInvitationsListComponent } from 'app/components/inquiry-invitations-list/inquiry-invitations-list.component';
 import { InquiryCompactComponent } from 'app/components/inquiry-compact/inquiry-compact.component';
@@ -22,6 +23,7 @@ import { InquiryRoutingModule } from 'app/modules/inquiry/inquiry-routing.module
   imports: [
     CommonModule,
     MythemeModule,
+    ThemeModule,
   ]
 })
 export class InquiryModule { }

@@ -5,12 +5,15 @@ import { InquiryOwnerListComponent } from 'app/components/inquiry-owner-list/inq
 
 const routes: Routes = [{
   path: '',
-  component: InquiryOwnerListComponent,
+  component: InquiryComponent,
   children: [{
     path: 'new',
     component: InquiryOwnerListComponent,
-  }],
-}];
+    }],
+  },
+  { path: '**', 
+    redirectTo: '' },
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes),],
