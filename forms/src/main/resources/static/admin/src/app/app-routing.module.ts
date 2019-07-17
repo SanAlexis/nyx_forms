@@ -20,9 +20,18 @@ import {
 const routes: Routes = [
   
   { path: 'home',
-    component: DashboardComponent,},
-  { path: 'inquiry', 
-    loadChildren: './modules/inquiry/inquiry.module#InquiryModule',},
+    component: DashboardComponent,
+    children: [{
+        path: 'inquiry', 
+        component : InquiryComponent,
+        },
+    { path: 'settings', 
+        component : ,},
+    { path: 'licence', 
+        component : InquiryComponent,},
+    ],
+    },
+  
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '**', redirectTo: 'home' },
 ];
