@@ -10,16 +10,13 @@ import {
   NbRequestPasswordComponent,
   NbResetPasswordComponent,
 } from '@nebular/auth';
-import {
-    DashboardComponent,
-} from './components/dashboard/dashboard.component';
-import {
-    InquiryComponent,
-} from './components/inquiry/inquiry.component';
+import { DashboardComponent, } from './components/dashboard/dashboard.component';
+import { InquiryComponent, } from './components/inquiry/inquiry.component';
+import { InquiryListComponent, } from './components/inquiry-list/inquiry-list.component';
 
 const routes: Routes = [
   
-  { path: 'home',
+    { path: 'home',
     component: DashboardComponent,
     children: [{
         path: 'inquiry', 
@@ -28,6 +25,22 @@ const routes: Routes = [
     { path: 'licence', 
         component : InquiryComponent,},
     ],
+    },
+    { 
+    path: 'inquiry',
+    component: InquiryComponent,
+    children: [
+        {
+        path: 'new', 
+        component : InquiryListComponent,
+        },
+        { path: 'reach', 
+            component : InquiryListComponent,
+        },
+        { path: 'quit', 
+            component : InquiryComponent,
+        },        
+                ],
     },
   
   { path: '', redirectTo: 'home', pathMatch: 'full' },
