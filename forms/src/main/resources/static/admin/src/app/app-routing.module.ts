@@ -28,11 +28,11 @@ const routes: Routes = [
     },
     { 
     path: 'inquiry',
-    component: InquiryComponent,
+    component: DashboardComponent,
     children: [
         {
         path: 'new', 
-        component : InquiryListComponent,
+        component : DashboardComponent,
         },
         { path: 'reach', 
             component : InquiryListComponent,
@@ -40,7 +40,7 @@ const routes: Routes = [
         { path: 'quit', 
             component : InquiryComponent,
         },        
-                ],
+              ],
     },
   
   { path: '', redirectTo: 'home', pathMatch: 'full' },
