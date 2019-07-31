@@ -25,8 +25,6 @@ const routes: Routes = [
         path: 'inquiry', 
         component : InquiryComponent,
         },
-    { path: 'settings', 
-        component : ,},
     { path: 'licence', 
         component : InquiryComponent,},
     ],
